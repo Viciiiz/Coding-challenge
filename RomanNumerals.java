@@ -62,7 +62,7 @@ public class Conversion {
     }
     
     public static void main(String[] args){
-    Conversion conv = new conv();
+        Conversion conv = new conv();
         Scanner keyboard = new Scanner (System.in);
         System.out.println("Enter an integer from 0 to 3999: ");
         int num = keyboard.nextInt();
